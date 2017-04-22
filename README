@@ -7,17 +7,17 @@ Writing *pandoc* projects with `beamer` and `revealjs` as output formats. One so
 ## Example
 
     ## Periodic Groups
-
+    
     ### Definition
-
+    
     A group $G$ is called *periodic* if for each element $a \in G$ there exists an integer $n > 0$ such that
     $$a^n = e.$$
-
+    
     . . .
-
+    
     <div fragment="true">
     ### Examples
-
+    
      * Every finite group is periodic.
      * The direct product of cyclic groups
        $$ \bigoplus_{i=2}^\infty \Z_i $$
@@ -27,16 +27,16 @@ Writing *pandoc* projects with `beamer` and `revealjs` as output formats. One so
 produces valid output using `revealjs` and gets transformed to
 
     ## Periodic Groups
-
+    
     ### Definition
-
+    
     A group $G$ is called *periodic* if for each element $a \in G$ there exists an integer $n > 0$ such that
     $$a^n = e.$$
-
+    
     . . .
-
+    
     ### Examples
-
+    
      * Every finite group is periodic.
      * The direct product of cyclic groups
        $$ \bigoplus_{i=2}^\infty \Z_i $$
