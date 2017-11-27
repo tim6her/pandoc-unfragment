@@ -5,7 +5,7 @@ A simple pandoc-filter for writing beamer presentations alongside reveal.js
 ---------------------------------------------------------------------------
 
 Writing *pandoc* projects with ``beamer`` and ``revealjs`` as output
-formats. One sometimes runs into the problem that *pandoc* does not know
+formats, one sometimes runs into the problem that *pandoc* does not know
 where a block should start and end. This is especially important for
 pauses or fragments ``. . .``. Enclosing the block in a ``<div>`` solves
 the problem for ``revealjs`` but breaks ``beamer``. That's why I created
